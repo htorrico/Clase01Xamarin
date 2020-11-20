@@ -14,9 +14,9 @@ namespace Clase01Xamarin
         public int Resultado { get; set; }
 
         //Funciones
-        public int Sumar(int a, int b) {
+        public int Sumar() {
 
-            return a + b;
+            return PrimerNumero+ SegundoNumero;
         }
 
         public string NombresCompletos(string nombre, 
@@ -26,9 +26,9 @@ namespace Clase01Xamarin
         }
 
         //Procedimientos
-        public void suma(int num1, int num2)
+        public void suma()
         {
-            Resultado = num1 + num2;
+            Resultado = PrimerNumero + SegundoNumero;
         }
 
     }
